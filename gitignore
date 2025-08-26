@@ -1,0 +1,52 @@
+# Logs
+logs/
+*.log
+
+# Environment files
+.env
+.env.local
+.env.production
+
+# Results and output directories
+results/
+output/
+reports/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.temp
+
+# Raw scan results
+*.gnmap
+*.xml
+*.nmap
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Docker
+.docker/
+
+# Test artifacts
+test_results/
+coverage/
+
+# Archives
+*.tar.gz
+*.zip
+*.rar
