@@ -198,4 +198,4 @@ This tool is for authorized security testing only. Users are responsible for com
 
 ---
 
-**Built by:** Dhananjay Jha | **LinkedIn:** [linkedin.com/in/dhananjayjha](https://linkedin.com/in/dhananjayjha)
+**Built by:** Dhananjay Jha | **LinkedIn:** [linkedin.com/in/dhananjayjha](https://www.linkedin.com/in/dhananjay-jha-8008091b6/)
