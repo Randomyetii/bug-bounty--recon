@@ -17,9 +17,9 @@ RUN wget https://go.dev/dl/go1.22.3.linux-amd64.tar.gz && \
     rm go1.22.3.linux-amd64.tar.gz
 
 # Install Go-based recon tools with pinned versions
-RUN go install github.com/owasp-amass/amass/v4/...@v4.2.0 && \
-    go install github.com/projectdiscovery/httpx/cmd/httpx@v1.1.6 && \
-    go install github.com/projectdiscovery/nuclei/v3/cmd/nuclei@v3.8.11
+RUN RUN go install github.com/owasp-amass/amass/v4/...@latest && \
+    go install github.com/projectdiscovery/httpx/cmd/httpx@latest && \
+    go install github.com/projectdiscovery/nuclei/v3/cmd/nuclei@latest
 
 # Update nuclei templates
 RUN nuclei -update-templates
